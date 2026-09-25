@@ -34,6 +34,7 @@ dependencies = [
     "typing_extensions",
     "huggingface_hub",
     "einops",
+    "pycocotools",
 ]
 
 [project.optional-dependencies]
@@ -48,7 +49,6 @@ dev = [
     "yt-dlp",
     "pandas",
     "opencv-python",
-    "pycocotools",
     "numba",
     "python-rapidjson",
 ]
@@ -59,7 +59,6 @@ notebooks = [
     "ipywidgets",
     "ipycanvas",
     "ipympl",
-    "pycocotools",
     "decord",
     "opencv-python",
     "scikit-image",
