@@ -2220,6 +2220,7 @@ wheels = [
 name = "sam3"
 source = { editable = "." }
 dependencies = [
+    { name = "einops" },
     { name = "ftfy" },
     { name = "huggingface-hub" },
     { name = "iopath" },
@@ -2248,7 +2249,6 @@ dev = [
 ]
 notebooks = [
     { name = "decord" },
-    { name = "einops" },
     { name = "ipycanvas" },
     { name = "ipympl" },
     { name = "ipywidgets" },
@@ -2277,7 +2277,7 @@ train = [
 requires-dist = [
     { name = "black", marker = "extra == 'dev'", specifier = "==26.3.1" },
     { name = "decord", marker = "extra == 'notebooks'" },
-    { name = "einops", marker = "extra == 'notebooks'" },
+    { name = "einops" },
     { name = "fairscale", marker = "extra == 'train'" },
     { name = "ftfy", specifier = "==6.1.1" },
     { name = "fvcore", marker = "extra == 'train'" },
